@@ -35,7 +35,10 @@
   (define pem (in-this-collection "server-cert.pem"))
   (define ctx (ssl-make-client-context))
   (ssl-set-verify! ctx #t)
-  (ssl-load-verify-root-certificates! ctx pem)
+  (ssl-load-default-verify-sources! ctx)
+  (if (file-exists? pem)
+      (ssl-load-verify-root-certificates! ctx pem)
+      (ssl-set-verify-hostname! ctx #t))
   (with-handlers
       ([exn:fail:network?
         (lambda (e)
