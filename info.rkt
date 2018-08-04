@@ -37,6 +37,7 @@
 
 ;; Client configuration
 ;(define password-keep-minutes 5) ; client remembers entered password 5 mins
+(define allow-submit-on-error? #t) ; include a "Submit even if server reports errors" option
 
 ;; Package dependencies
 (define deps '("base"
