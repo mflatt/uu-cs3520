@@ -47,5 +47,4 @@
                "net-lib"
 
                ;; Extra packages used by the course:
-               "plait"
-               "plai-lazy"))
+               "plait"))
