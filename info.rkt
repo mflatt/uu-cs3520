@@ -47,4 +47,4 @@
                "net-lib"
 
                ;; Extra packages used by the course:
-               "plait"))
+               "shplait"))
