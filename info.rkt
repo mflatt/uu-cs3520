@@ -47,5 +47,5 @@
                "net-lib"
 
                ;; Extra packages used by the course:
-               ["shplait" #:version "0.10"]
+               ["shplait" #:version "0.12"]
                ["rhombus-lib" #:version "0.28"]))
