@@ -25,7 +25,7 @@
 (define web-address "http://www.eng.utah.edu/~cs3520/")
 
 ;; Auto-updater section (see handin-server/doc.txt for details)
-;(define enable-auto-update #t) ; enable auto-update?
+;(define enable-auto-update #f) ; enable auto-update?
 ;(define version-filename "handin-version")
 ;(define package-filename "handin.plt")
 
