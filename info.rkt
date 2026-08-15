@@ -41,11 +41,11 @@
 
 ;; Package dependencies
 (define deps '("base"
-               "drracket"
+               "drracket-core-lib"
                "drracket-plugin-lib"
                "gui-lib"
                "net-lib"
 
                ;; Extra packages used by the course:
-               ["shplait" #:version "0.13"]
-               ["rhombus-lib" #:version "0.28"]))
+               ["shplait" #:version "0.17"]
+               ["rhombus-lib" #:version "1.0"]))
